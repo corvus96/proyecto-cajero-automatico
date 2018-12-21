@@ -21,7 +21,7 @@ function entregarDinero(){
 		}
 	}
 	if (dinero>0){
-		r.innerHTML = "El monto no esta disponible";
+		r.innerHTML = "El monto no esta disponible <br />";
 	}
 	else {
 		for (var e of entregado){
